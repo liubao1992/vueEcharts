@@ -1,0 +1,334 @@
+html,body{
+    background: #000928;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    background-attachment:fixed;
+}
+.titleImg{
+    width: 100%;
+    height: 100%;
+}
+.contBody{
+    width: 60%;
+    /* border: solid 1px red; */
+    margin: 0.5% 20%;
+    height: 990px;
+}
+.contBody .contTit{
+    width: 100%;
+    background-image: url(/img/tit.4d190394.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    height: 60px;
+    color: #FFF;
+    font-size: 24px;
+    text-align: left;
+    text-indent: 40px;
+    line-height: 60px;
+}
+.contBody .contBottom{
+    height: calc(100% - 60px);
+    background: #143c5d;
+    margin-top: -8px;
+}
+.contListTit{
+    width: 48%;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    margin: 1%;
+    float: left;
+    background-image: url(./tit1.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    color: #FFF;
+    font-size: 20px;
+}
+.contListTit1{
+    width: 48%;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    margin: 1% 1% 1% 0.5%;
+    float: left;
+    background-image: url(./tit2.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    color: #FFF;
+    font-size: 20px;
+}
+.contList{
+    width: 48%;
+    margin: 1% 0.5% 1% 1%;
+    float: left;
+    
+}
+
+.contList .listTit{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    background-image: url(./tit3.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    color: #FFF;
+    font-size: 20px;
+    text-indent: 30px;
+}
+.contList .listTit1{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    background-image: url(./tit4.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    color: #FFF;
+    font-size: 20px;
+    text-indent: 30px;
+}
+.contList .listCont{
+    width: 100%;
+    height: 175px;
+    background: #012a46;
+    padding: 1% 0;
+    overflow-y: scroll;
+}
+
+.contList .listCont .progressItem{
+    width: 98%;
+    margin: 0 1% 1% 1%;
+    height: 30px;
+    line-height: 30px;
+}
+.contList .listCont .progressItem span{
+    width: 100px;
+    display: block;
+    float: left;
+    color: #b1b8c0;
+}
+.contList .listCont .progressItem .progressBar{
+    width: calc(100% - 120px);
+    float: left;
+    margin: 5px 0;
+}
+.contList .listCont1{
+    width: 100%;
+    height: 680px;
+    background: #012a46;
+    padding: 1% 0;
+    overflow-y: scroll;
+    color: #cee2ed;
+}
+.contList .listCont1 ul{
+    margin: 0;
+    padding: 0;
+}
+.contList .listCont1 ul li{
+   height: 30px;
+   line-height: 30px;
+   text-align: left;
+   text-indent: 30px;
+   list-style: none;
+}
+.contList1{
+    width: 48%;
+    margin: 0 1%;
+    float: left;
+    background: #000;
+}
+.contList1 .listItem{
+    width: 100%;
+    margin: 0;
+    padding: 1% 0;
+    float: left;
+}
+.contList1 .listItem li{
+    width: 33%;
+    color: #FFF;
+    list-style: none;
+    float: left;
+}
+.contList1 .listItem li span{
+    width: 80px;
+    float: left;
+    height: 35px;
+    display: block;
+    line-height: 35px;
+    margin-right: 5px;
+    text-align: right;
+}
+.contList1 .listItem li i{
+    width: auto;
+    float: left;
+    height: 35px;
+    display: block;
+    line-height: 35px;
+    font-style: normal;
+}
+.clearBoth{
+    clear: both;
+}
+::-webkit-scrollbar  
+{  
+    width: 15px;    
+    /* background-color: #fff;   */
+}  
+
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 5px;  
+    background-color: #223882;  
+}  
+
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 5px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #8aa0e9;  
+}  
+/*定义最上方和最下方的按钮*/
+::-webkit-scrollbar-button{
+     background-color: #182762;
+     /* border:1px solid yellow; */
+     border:1px solid #182762;
+}
+.contBody .contBottom1{
+    height: calc(100% - 60px);
+    background: rgba(20, 60, 93, 0.5);
+    margin-top: -8px;
+}
+.chartStyle{
+    width: 100%;
+    height: 790px;
+    background: transparent;
+}
+.divNum{
+    color: #FFF;
+    font-size: 14px;
+    width: 30%;
+    margin-left: 50px;
+    float: left;
+}
+.divNum p{
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.divNum .spanStyle{
+    font-size: 64px;
+    float: left;
+    display: block;
+    width: 60%;
+}
+.divNum .numDiv{
+    float: left;
+    display: block;
+    width: 30%;
+    height: 70px;
+    line-height: 100px;
+}
+.divNum .numDiv i{
+    color: #76d7ad;
+    display: inline-block;
+    margin-right: 5px;
+}
+.divNum .numDiv span{
+    color: #76d7ad;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.contListTit2{
+    width: 48%;
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+    margin: 1% 1% 0 1%;
+    float: left;
+    background-image: url(./scoreAllBgRed.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    color: #FFF;
+}
+.contListTit2 .dwName{
+    display: block;
+    font-size: 20px;
+    width: 30%;
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
+.contListTit2 .scoreList{
+    width: 60%;
+    float: left;
+    height: 125px;
+}
+.contListTit2 .scoreList .score{
+    width: 72px;
+    height: 94px;
+    line-height: 94px;
+    background-image: url(./scoreBgRed.png);
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    float: left;
+    font-size: 64px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.contListTit3{
+    width: 48%;
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+    margin: 1% 1% 0 0.5%;
+    float: left;
+    background-image: url(./scoreAllBgBlue.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    color: #FFF;
+    font-size: 20px;
+}
+.contListTit3 .dwName{
+    display: block;
+    font-size: 20px;
+    width: 30%;
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
+.contListTit3 .scoreList{
+    width: 60%;
+    float: left;
+    height: 125px;
+}
+.contListTit3 .scoreList .score{
+    width: 72px;
+    height: 94px;
+    line-height: 94px;
+    background-image: url(./scoreBgBlue.png);
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    float: left;
+    font-size: 64px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
